@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Acme", serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: aliceblue;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: black;
+}
+
+.header{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    height: 80px;
+
+}
+.header .logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.tabs{
+    display: flex;
+    align-items: center;
+}
+
+.tabs .btn-home{
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 20px;
+    transition: all 0.3s;
+}
+.tabs .btn-add{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    transition: all 0.3s;
+}
+
+
+.bodycont{
+    width: 80%;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    
+}
+
+.tbl{
+    width: 100%;
+    text-align: center;
+    border: 2px solid #000;
+    border-collapse: collapse;
+    margin-top: 50px;
+
+    
+}
+
+.tbl th{
+    height: 50px;
+    border: 2px solid #000;
+}
+
+.tbl tr{
+    border: 2px solid #000;
+    height: 40px;
+}
+
+.tbl tbody tr:nth-child(even){
+    background-color: rgb(245, 243, 243);
+}
+
+.tbl thead tr:nth-child(odd){
+    background-color: rgb(194, 191, 191);
+}
+
+.tbl td{
+    border: 2px solid #000;
+}
+
+.tbl td .btn-upt{
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: yellow;
+    border: 2px solid #000;
+    transition: all 0.3s;
+    margin-right: 10px;
+}
+
+.tbl td .btn-dlt{
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: red;
+    border: 2px solid #000;
+    transition: all 0.3s;
+}
+
+.tbl td .btn-dlt:hover{
+    background-color: #000;
+    color: red;
+}
+
+.tbl td .btn-upt:hover{
+    background-color: #000;
+    color: yellow;
+}
+
+.tabs .btn-add:hover{
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.tabs .btn-home:hover{
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+
+.addemp{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    border: 2px solid #000;
+    transition: all 0.5s;
+
+    display: none;
+
+   
+}
+
+
+.addemp h3{
+    background-color: #000;
+    color: #fff;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addemp form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    
+}
+.addemp form .inp{
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    border: 1px solid #000;
+    border-radius: 20px;
+
+}
+
+.btn-save{
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.btn-save:hover{
+    color: #000;
+    border: 2px solid #000;
+    background-color: #fff;
+}
+
+.btn-close{
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.btn-close:hover{
+    color: #000;
+    border: 2px solid #000;
+    background-color: #fff;
+}
+
+
+.uptemp{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    border: 2px solid #000;
+    transition: all 0.5s;
+
+    display: none;
+
+   
+}
+
+
+.uptemp h3{
+    background-color: #000;
+    color: #fff;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.uptemp form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    
+}
+.uptemp form .inp{
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    border: 1px solid #000;
+    border-radius: 20px;
+
+}
